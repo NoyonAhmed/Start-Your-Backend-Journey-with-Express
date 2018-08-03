@@ -7,9 +7,7 @@ app.get('/', (req, res, next) => {
     next()
 })
 
-app.get('/post', (req, res) => {
-    res.send('<h1>Hello, Full Stack Developer</h1>')
-})
+
 
 app.get('/user', (req, res) => {
     res.send('<h1>Noyon Ahmed</h1>')
